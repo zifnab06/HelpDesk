@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>at.junction.helpdesk</groupId>
 	<artifactId>helpdesk</artifactId>
-	<version>1.0</version>
+	<version>0.1</version>
 	<name>HelpDesk</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,6 +24,14 @@
 		<repository>
 			<id>bukkit-repo</id>
 			<url>http://repo.bukkit.org/content/groups/public</url>
+		</repository>
+		<repository>
+			<id>vault-repo</id>
+			<url>http://ci.herocraftonline.com/plugin/repository/everything</url>
+		</repository>
+		<repository>
+			<id>tagapi-repo</id>
+			<url>http://repo.kitteh.org/content/repositories/public</url>
 		</repository>
 	</repositories>
 	<build>
@@ -61,9 +69,14 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>de.bananaco</groupId>
-			<artifactId>bPermissions</artifactId>
-			<version>2.10</version>
+			<groupId>net.milkbowl</groupId>
+			<artifactId>vault</artifactId>
+			<version>1.2.27</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.kitteh</groupId>
+			<artifactId>tagapi</artifactId>
 		</dependency>
 	</dependencies>
 </project>

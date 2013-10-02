@@ -1,0 +1,20 @@
+name: HelpDesk
+version: 0.1
+description: Mod/Player seperation
+author: zifnab06
+website: http://zifnab.net/
+
+main: at.junction.HelpDesk.HelpDesk
+depend: [Vault]
+
+commands: 
+  mode:
+    description: xyz
+    usage: /mode
+  vanish:
+    description: Vanish to other players
+    usage: /vanish
+  unvanish: 
+    description: unvanish to other players
+    usage: /unvanish
+
